@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #4CAF50, #81C784, #388E3C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-gradient{
+    background: #baf6b3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #c3fbc9, #00ff48); 
+ /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8fef9a, #00ff48);
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
