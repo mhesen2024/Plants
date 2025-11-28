@@ -7,7 +7,7 @@ const Home = () => {
     <div className=" bg-radial-[at_50%_75%] from-[#bcface] via-[#8fef9a] min-h-screen flex items-center relative overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10  animate-fade-in">
         <div className="mb-10">
-          <div className="w-28 h-28 bg-gradient-to-r from-[#00d83a] via-[#009611] to-[#00661d] rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-2xl animate-float">
+          <div className="w-28 h-28  rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-2xl animate-float">
             <span className="text-white text-5xl">🌱</span>
           </div>
 
