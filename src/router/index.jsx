@@ -5,6 +5,8 @@ import Plants from '../page/plants.jsx';
 import Home from '../page/Home.jsx';
 import Care from '../page/Care.jsx';
 import Tools from '../page/Tools.jsx';
+import ContactUs from '../page/ContactUs.jsx';
+import PlantsDetail from '../page/PlantsDetail.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -15,6 +17,8 @@ const router = createBrowserRouter([
       { path: 'Care', element: <Care /> },
       { path: '*', element: <NotFound /> },
       { path: 'Tools', element: <Tools /> },
+      { path:"contact",element:<ContactUs/>},
+      {path:"plants/:id",element:<PlantsDetail/>}
     ]
   },
 ]);
